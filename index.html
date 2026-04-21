@@ -3,34 +3,92 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mi primera web</title>
+  <title>EXCLUS!VO | Moda y sneakers exclusivas</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Juan José</h1>
-    <p>Futuro programador web</p>
+  <header class="header">
+    <div class="logo">EXCLUS!VO</div>
+    <nav class="nav">
+      <a href="#inicio">Inicio</a>
+      <a href="#destacados">Destacados</a>
+      <a href="#marca">Marca</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
   </header>
 
   <main>
-    <section>
-      <h2>Sobre mí</h2>
-      <p>Estoy aprendiendo desarrollo web desde cero para convertirme en un programador profesional.</p>
+    <section class="hero" id="inicio">
+      <div class="hero-content">
+        <p class="tag">Ediciones limitadas · Selección premium</p>
+        <h1>Estilo exclusivo para quien no quiere vestir como todos</h1>
+        <p class="subtitle">
+          Sneakers únicas, prendas premium y accesorios seleccionados con una sola idea:
+          destacar con presencia real.
+        </p>
+        <div class="hero-buttons">
+          <a href="#destacados" class="btn btn-light">Ver destacados</a>
+          <a href="#marca" class="btn btn-outline">Descubrir la marca</a>
+        </div>
+      </div>
     </section>
 
-    <section>
-      <h2>Lo que quiero aprender</h2>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-      </ul>
+    <section class="featured" id="destacados">
+      <h2>Productos destacados</h2>
+      <div class="product-grid">
+        <article class="product-card">
+          <div class="product-image"></div>
+          <h3>Shadow Runner X</h3>
+          <p class="price">289€</p>
+          <p class="product-text">Sneaker de estética urbana con silueta agresiva y acabado premium.</p>
+          <a href="#" class="btn btn-dark">Ver producto</a>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image"></div>
+          <h3>Exclusive Leather Jacket</h3>
+          <p class="price">349€</p>
+          <p class="product-text">Chaqueta con carácter, líneas limpias y presencia de colección limitada.</p>
+          <a href="#" class="btn btn-dark">Ver producto</a>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image"></div>
+          <h3>Vault Signature Bag</h3>
+          <p class="price">199€</p>
+          <p class="product-text">Accesorio elegante y urbano pensado para completar un look premium.</p>
+          <a href="#" class="btn btn-dark">Ver producto</a>
+        </article>
+      </div>
     </section>
 
-    <section>
-      <h2>Contacto</h2>
-      <a href="mailto:correo@ejemplo.com">Escríbeme</a>
+    <section class="brand" id="marca">
+      <h2>¿Qué es EXCLUS!VO?</h2>
+      <p>
+        EXCLUS!VO es una marca pensada para quienes valoran la estética, la exclusividad y la identidad.
+        No buscamos cantidad. Buscamos piezas con impacto, personalidad y sensación de edición limitada.
+      </p>
+    </section>
+
+    <section class="benefits">
+      <div class="benefit">
+        <h3>Curación selecta</h3>
+        <p>Elegimos productos con una imagen fuerte y una estética cuidada al detalle.</p>
+      </div>
+      <div class="benefit">
+        <h3>Presencia premium</h3>
+        <p>Cada pieza está pensada para transmitir valor, estilo y diferenciación real.</p>
+      </div>
+      <div class="benefit">
+        <h3>Imagen de marca</h3>
+        <p>No solo vendemos productos: construimos una experiencia visual exclusiva.</p>
+      </div>
     </section>
   </main>
+
+  <footer class="footer" id="contacto">
+    <p>Contacto: exclusivo@brand.com</p>
+    <p>© 2026 EXCLUS!VO. Todos los derechos reservados.</p>
+  </footer>
 </body>
 </html>
