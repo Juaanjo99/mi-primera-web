@@ -41,17 +41,30 @@ a {
 }
 
 .hero {
-  padding: 110px 40px 90px;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 30px auto 0;
+  padding: 0 40px;
+}
+
+.hero-overlay {
+  background:
+    linear-gradient(to right, rgba(10, 10, 11, 0.88), rgba(10, 10, 11, 0.45)),
+    url("https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1400&q=80");
+  background-size: cover;
+  background-position: center;
+  border-radius: 24px;
+  min-height: 560px;
+  display: flex;
+  align-items: center;
+  padding: 60px;
 }
 
 .hero-content {
-  max-width: 760px;
+  max-width: 700px;
 }
 
 .tag {
-  color: #9d9da6;
+  color: #d1d1d8;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 13px;
@@ -59,23 +72,17 @@ a {
 }
 
 .hero h1 {
-  font-size: 60px;
-  line-height: 1.05;
+  font-size: 64px;
+  line-height: 1.02;
   margin: 0 0 22px;
 }
 
 .subtitle {
-  max-width: 640px;
-  font-size: 19px;
-  color: #c8c8ce;
-  line-height: 1.6;
+  max-width: 620px;
+  font-size: 20px;
+  color: #e1e1e6;
+  line-height: 1.7;
   margin-bottom: 32px;
-}
-
-.hero-buttons {
-  display: flex;
-  gap: 16px;
-  flex-wrap: wrap;
 }
 
 .btn {
